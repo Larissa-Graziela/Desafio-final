@@ -1,0 +1,407 @@
+*{
+    padding:0;
+    margin:0;
+}
+.topo{
+    position: absolute;
+  
+
+}
+.man{
+    width: 65%;
+    position:absolute;
+    top: 3vw;
+    left: 13%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.star{
+    width: 20%;
+    position:relative;
+    top:25vw;
+    left:22%
+    
+}
+.wars{
+    width: 20%;
+    position:absolute;
+    top:25vw;
+    left:66.5%
+}
+.crie{
+    width: 10%;
+    position:absolute;
+    top:35vw;
+    left:78% 
+}
+.robot{
+    width: 60%;
+    height: 135vw;
+}
+.vermelho{
+    width: 18%;
+    position: absolute;
+    top:40vw;
+    left: 16%;
+}
+.jogo{
+    width:54%;
+    position: absolute;
+    top:55vw;
+    left:40%;
+}
+.linha{
+    width:68%;
+    position: absolute;
+    top:72vw;
+    left:27%;
+}
+.lord{
+    width: 60%;
+    position:absolute;
+    top: 82vw;
+    left: 8%;
+}
+.rey{
+    width: 28%;
+    position:absolute;
+    top: 88vw;
+    left: 71%;
+}
+
+.retangulo{
+    top: 140.5vw;
+    width: 100%;
+    position:absolute;
+}
+.atributos{
+    color: rgb(243, 243, 243);
+    position: absolute;
+    top: 143vw;
+    left: 15%;
+}
+.review{
+    width: 43.5%;
+    position: absolute;
+    top: 152vw; 
+    height: 43%;
+    height: 30vw;
+    left: 4%;
+}
+.novos{
+    width: 45.5%;
+    
+}
+.batalha{
+    width: 46.5%;
+    
+}
+.game{
+    width: 45.5%;
+   
+}
+.stormtrup{
+    width:44.5%;
+    
+}
+nav{
+    display: flex;
+  flex-wrap: wrap;
+    
+    
+}
+.container{
+    position: absolute;
+    top: 151.7vw; 
+    left: 47.4%;
+}
+.bonecos{
+    width: 90%;
+    position: absolute;
+    top: 185vw; 
+    height: 45vw;
+    left: 5%;
+}
+.como{
+    color: rgb(250, 249, 246);
+    position: absolute;
+    top: 249vw; 
+    left: 50%;
+    font-size: 3vw;
+
+}
+.normas{
+    color: rgb(241, 239, 241);
+    position: relative;
+    top: 90vw; 
+    left: 40%;
+    width: 50vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.trooper{
+    width: 35%;
+    position: absolute;
+    top: 237vw; 
+    height: 50vw;
+    left: 4%;
+}
+.primeiro{
+position: absolute;
+left: 40%;
+top: 270vw;
+font-size: 3vw;
+background-color: black;
+}
+.onze{
+    position: absolute;
+    left: 60%;
+    top: 270vw;
+    font-size: 3vw;
+    
+    background-color: black;
+}
+.nove{
+    position: absolute;
+    left: 79%;
+   top:270vw;
+   
+   font-size: 3vw;
+   background-color: black;
+  
+}
+.pc{
+    border: 0px solid white;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: sans-serif;
+    background:none;
+    color: rgb(245, 243, 241);
+    
+  width:17vw ;
+  z-index: -1;
+    
+}
+.pc1:hover,.pc2:hover,.pc3:hover{
+    background-color: rgb(241, 76, 47);
+   
+    
+}
+
+
+.doce{
+    width:60%;
+    position: absolute;
+    top:300vw;
+   
+  
+}
+.darth{
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    height: 50vw;
+    top: 290vw;
+}
+.raiva{
+    position:absolute;
+    width:15% ;
+    top:302vw;
+    left: 10%;
+    height: 10vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    color: rgb(247, 246, 244);
+}
+.jornada{
+    position:absolute;
+    color: rgb(5, 5, 5);
+    top: 80vw;
+    left: 46%;
+    font-size: 3vw;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.mae{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+.arvore{
+    position: absolute;
+    top:100vw;
+    left: 58%;
+}
+.estelar{
+    position: absolute;
+    top:103vw;
+    left: 58%;
+    cursor: pointer;
+}
+
+
+.rodaper{
+    position: absolute;
+    color: rgb(250, 246, 246);
+    top: 307vw;
+    width: 40vw;
+    height: 45vh;
+    left: 10vw;
+    font-size:1.5vw;
+    font-family:sans-serif;
+}
+.google{
+    position: absolute;
+    top:315vw;
+    left: 10%;
+    width: 15%;
+}
+.store{
+    position: absolute;
+    top:315vw;
+    left: 27%;
+    width: 15%;
+}
+.dez{
+    position: absolute;
+    top:320vw;
+    left: 10%;
+    width: 30%;
+}
+.uo{
+    position: absolute;
+    top:325vw;
+    left: 10%;
+    width: 13%; 
+}
+.verdade{
+    position: absolute;
+    top:332vw;
+    left: 10vw;
+    width: 40vw;
+    height: 45vh;
+    color: rgb(243, 242, 240);
+    font-size: 1.5vw;
+    font-family: sans-serif;
+}
+
+
+.socorro{
+    position:absolute;
+}
+.btn{
+    border: 0px solid white;
+    cursor: pointer;
+    font-family: "montserrat";
+    background:none ;
+    
+    font-size:2.5vw;
+    
+    transition: 0.8s;
+    
+    
+}
+
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover{
+background-color: rgb(241, 76, 47);
+}
+.amor{ 
+    position:absolute;
+    left:58%;
+    top: 95vw;
+}
+.familia{
+    position:absolute;
+    left: 58%;
+    top: 100vw; 
+}
+.natal{
+    position:absolute;
+    left: 58%;
+    top: 105vw;  
+}
+.feliz{
+    position:absolute;
+    left: 58%;
+    top: 110vw;  
+}
+.amarelo{
+    position:absolute;
+    left: 58%;
+    top: 115vw;  
+}
+.chao{
+    position:absolute;
+    left: 58%;
+    top: 120vw;  
+}
+.quadro{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.numero1{
+    position: absolute;
+    left: 47%;
+   top:265vw;
+   width: 15%;
+  
+
+}
+.numero2{
+    position: absolute;
+    left: 65%;
+   top:265vw;
+   width: 15%;
+
+}
+.numero3{
+    position: absolute;
+    left: 83%;
+   top:265vw;
+   width: 15%;
+
+}
+.mesa{
+    
+    border: 0px solid white;
+    cursor: pointer;
+    font-family: "montserrat";
+    background:none ;
+    
+    font-size:2.5vw;
+  
+    transition: 0.8s;
+}
+
+.copo{
+    position: absolute;
+    left:44%;
+   top:275vw;
+   width: 10vw;
+   font-size: 3vw;
+  
+}
+.xicara{
+    position: absolute;
+    left: 63%;
+   top:275vw;
+   width: 10vw;
+   font-size: 3vw;
+}
+.taça{
+    position: absolute;
+    left: 83%;
+   top:275vw;
+   width: 10vw;
+   font-size: 3vw;
+}
+.atras{
+    position:absolute;
+    top: 0.0vw; 
+   left:0vw;
+    width:25vw;
+}

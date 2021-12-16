@@ -1,12 +1,15 @@
 *{
     padding:0;
     margin:0;
+    font-family:"open sans" ;
+    list-style:none;
+   
 }
 .topo{
     position: absolute;
-  
-
 }
+
+
 .man{
     width: 65%;
     position:absolute;
@@ -183,7 +186,7 @@ background-color: black;
     color: rgb(245, 243, 241);
     
   width:17vw ;
-  z-index: -1;
+
     
 }
 .pc1:hover,.pc2:hover,.pc3:hover{
@@ -404,4 +407,136 @@ background-color: rgb(241, 76, 47);
     top: 0.0vw; 
    left:0vw;
     width:25vw;
+}
+@media(max-width:425px){
+ section{
+     width: 40%;
+     height: 20vh;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: space-evenly;
+
+ }
+ .vermelho{
+  position: absolute;
+  left:70vw;
+  width: 20vw;
+
+ }
+ .jogo{
+     position: absolute;
+     top: 70vw;
+left: 40vw;
+ }
+ .linha{
+    position: absolute;
+    top: 82vw;
+ }
+ .jornada{
+    position: absolute;
+    top: 85vw; 
+ }
+.normas{
+    position: absolute;
+    top: 240vw;  
+}
+.numero1{
+    position: absolute;
+    top: 268vw;
+    left: 55vw;
+}
+ .numero2{
+    position: absolute;
+    top: 280vw;
+    left: 55vw;
+ }   
+.numero3{
+    position: absolute;
+    top: 290vw;
+    left: 55vw;
+}
+.primeiro{
+    position: absolute;
+    top: 275vw;
+    left: 50vw;
+}
+   .onze{
+    position: absolute;
+    top: 287vw;
+    left: 50vw;
+   } 
+   .nove{
+    position: absolute;
+    top: 297vw;
+    left: 50vw;
+   }
+   .parede{
+       display: none;
+   }
+   .darth{
+    position: absolute;
+    top: 380vw;
+    left: 20vw; 
+    width: 60vw;
+    height: 80vw;
+   }
+   
+   
+   .doce{
+position: absolute;
+width: 100vw;
+top: 340vw;
+
+
+   }
+.raiva{
+    position: absolute;
+    top: 340vw;
+    left: 40vw; 
+    width: 100%;
+    
+}
+.rodaper{
+    position: absolute;
+    top: 345vw;
+    left: 40vw; 
+    width: 30%;
+}
+.google{
+    position: absolute;
+    top: 355vw;
+    left: 30vw; 
+    width: 20%;
+}
+.store{
+    position: absolute;
+    top: 355vw;
+    left: 55vw; 
+    width: 20%;
+}
+.dez{
+    position: absolute;
+    top: 360vw;
+    left: 30vw; 
+    width: 50%;
+}
+.uo{
+    position: absolute;
+    top: 366vw;
+    left: 42vw; 
+    width: 20%;
+}
+.verdade{
+    position: absolute;
+    top: 378vw;
+    left: 40vw; 
+    width: 50vw;
+}
+.trooper{
+    position: absolute;
+    width: 45%;
+    height: 80vw;
+    top: 245vw; 
+}
 }

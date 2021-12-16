@@ -311,6 +311,7 @@ background-color: black;
 
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover{
 background-color: rgb(241, 76, 47);
+animation: normal;
 }
 .amor{ 
     position:absolute;
@@ -409,15 +410,7 @@ background-color: rgb(241, 76, 47);
     width:25vw;
 }
 @media(max-width:425px){
- section{
-     width: 40%;
-     height: 20vh;
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     justify-content: space-evenly;
-
- }
+ 
  .vermelho{
   position: absolute;
   left:70vw;
@@ -494,7 +487,7 @@ top: 340vw;
     position: absolute;
     top: 340vw;
     left: 40vw; 
-    width: 100%;
+    width: 50vw;
     
 }
 .rodaper{
@@ -532,6 +525,7 @@ top: 340vw;
     top: 378vw;
     left: 40vw; 
     width: 50vw;
+    height: 50vw;
 }
 .trooper{
     position: absolute;
